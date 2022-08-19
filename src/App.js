@@ -3,6 +3,8 @@ import Navbar from './components/layout/Navbar';
 import './App.css';
 
 class App extends Component {
+
+
   render() {
 
     const title = 'Github Finder';
@@ -10,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <Navbar title={title} />
+        <Navbar />
       </div>
     );
   }
