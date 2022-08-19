@@ -4,10 +4,13 @@ import './App.css';
 
 class App extends Component {
   render() {
+
+    const title = 'Github Finder';
+
     return (
       <div className="App">
         
-        <Navbar />
+        <Navbar title={title} />
       </div>
     );
   }

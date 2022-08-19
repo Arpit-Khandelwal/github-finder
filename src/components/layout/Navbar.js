@@ -6,7 +6,7 @@ class Navbar extends Component {
             <div className="navbar bg-primary">
                 <h1>
                     <i className="fab fa-github" />
-                    Navbar</h1>
+                    {this.props.title}</h1>
             </div>
         )
     }
